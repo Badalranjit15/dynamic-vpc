@@ -81,7 +81,7 @@ node_templates:
     properties:
       resource_config:
         source:
-          location: new/module.zip
+          location: vpc/module.zip
         variables:
           region: { get_input: region }
           vpc_name: { get_input: vpc_name }
